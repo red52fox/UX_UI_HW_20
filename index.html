@@ -37,26 +37,131 @@
       </div>
     </nav>
     <!-- End topNavigation bar -->
-
-    <div class="d-flex align-items-start">
-      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <button class="nav-link active" id="v-pills-overview-tab" data-bs-toggle="pill" data-bs-target="#v-pills-overview" type="button" role="tab" aria-controls="v-pills-overview" aria-selected="true">Overview</button>
-        <button class="nav-link" id="v-pills-process-tab" data-bs-toggle="pill" data-bs-target="#v-pills-process" type="button" role="tab" aria-controls="v-pills-process" aria-selected="false">Process</button>
-        <button class="nav-link" id="v-pills-research-tab" data-bs-toggle="pill" data-bs-target="#v-pills-research" type="button" role="tab" aria-controls="v-pills-research" aria-selected="false">Research</button>
-        <button class="nav-link" id="v-pills-ideation-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ideation" type="button" role="tab" aria-controls="v-pills-ideation" aria-selected="false">Ideation</button>
-        <button class="nav-link" id="v-pills-testing-tab" data-bs-toggle="pill" data-bs-target="#v-pills-testing" type="button" role="tab" aria-controls="v-pills-testing" aria-selected="false">Testing</button>
-        <button class="nav-link" id="v-pills-prototype-tab" data-bs-toggle="pill" data-bs-target="#v-pills-prototype" type="button" role="tab" aria-controls="v-pills-prototype" aria-selected="false">Prototype</button>
-      </div>
-      <div class="tab-content" id="v-pills-tabContent">
-        <div class="tab-pane fade show active" id="v-pills-overview" role="tabpanel" aria-labelledby="v-pills-overview-tab">...</div>
-        <div class="tab-pane fade" id="v-pills-process" role="tabpanel" aria-labelledby="v-pills-process-tab">...</div>
-        <div class="tab-pane fade" id="v-pills-research" role="tabpanel" aria-labelledby="v-pills-research-tab">...</div>
-        <div class="tab-pane fade" id="v-pills-ideation" role="tabpanel" aria-labelledby="v-pills-ideation-tab">...</div>
-        <div class="tab-pane fade" id="v-pills-testing" role="tabpanel" aria-labelledby="v-pills-testing-tab">...</div>
-        <div class="tab-pane fade" id="v-pills-prototype" role="tabpanel" aria-labelledby="v-pills-prototype-tab">...</div>
-      </div>
+    <img src="images/hero-img2.png" class="w-100 h-100 m-0" style="z-index: -100; height: 900px; position: absolute;">
+<!--SideNav Start-->
+    <div class="sidenav">
+      <a href="#overview">Overview</a>
+      <a href="#process">Process</a>
+      <a href="#research">Research</a>
+      <a href="#ideation">Ideation</a>
+      <a href="#testing">Testing</a>
+      <a href="#prototype">Prototype</a>
     </div>
-    <h1>Hello, world!</h1>
+<!--SideNav End-->
+<!--Body Start-->
+    <div class="main">
+    <!--Overview Jumbotron Start-->
+      <section id="overview">
+        <div class="jumbotron">
+          <div class="container">
+            <h1 class="display-4 my-5" style="color: #FAF1D7;">Saving Great Dane Lives</h1>
+            <h3 style="color: #FAF1D7;">The Great Dane Rescue of North Texas was losing out on dog adoptions due to their non-responsive and cluttered website.<br>
+              <br>I was part of a team that transformed the site into an enjoyable mobile-friendly design to engage users and get Danes adopted.</h3>
+         </div>
+        </div>
+      </section>
+      <!--Overview End-->
+
+      <!--Banner-->
+      <section class="banner-img" id="banner1">
+        <img src="images/banner-img1.png" alt="woman browsing great dane site on laptop" class="w-100 p-3">
+      </section>
+      <!--End Banner-->
+
+      <!--Process Start-->
+      <section class="my-5" id="process">
+        <div class="container-fluid">
+          <h2>The Process</h2>
+          <picture>
+            <source media="(max-width: 576px)" srcset="images/process-graph-mobile.png">
+            <source media="(min-width: 577px)" srcset="images/Process-Graphic.png">
+            <img src="images/Process-Graphic.png" alt="design process flow graphic" class="w-100" id="process-img">
+        </picture>
+        </div>
+      </section>
+      <!--End Process-->
+
+      <!--Research Start-->
+      <section class="my-5" id="research">
+        <div class="container-fluid">
+          <h2 class="my-3">Research Discoveries</h2>
+          <!--Research points-->
+
+            <!--Profile row-->
+            <div class="row my-4">
+              <div class="col-sm-8">
+                <div class="card h-100 border-light">
+                  <div class="card-body">
+                    <h4 class="card-title my-3">Outdated or Incomplete Profiles</h4>
+                    <p >Due to time constraints, many rely on the website to decide if an in-person visit will be worth the trip.
+                      <br><br>Not updating a dog’s adoption status causes frustration or even heartbreak, especially for kids.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card h-100 border-light">
+                  <img src="images/sad-dog.png" alt="illustration of sad dog face on broken heart" style="transform: scale(.65);">
+                </div>
+              </div>
+            </div>
+            <!--End Profile Row-->
+            <!--Communication row-->
+            <div class="row my-4">
+              <div class="col-sm-4">
+                <div class="card h-100 border-light">
+                  <img src="images/bad-comms.png" alt="illustration of sad dog face on broken heart" style="transform: scale(.65);">
+                </div>
+              </div>
+              <div class="col-sm-8">
+                <div class="card h-100 border-light">
+                  <div class="card-body">
+                    <h4 class="card-title my-3">Poor Communication</h4>
+                    <p >Users were upset by slow responses to emails asking about dogs they may be interested in.
+                      <br><br>We experienced the same poor communication  when we tried to interview staff - no response. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Communication Row-->
+            <!--Navigation row-->
+            <div class="row my-4">
+              <div class="col-sm-8">
+                <div class="card h-100 border-light">
+                  <div class="card-body">
+                    <h4 class="card-title my-3">Overwhelming and Unclear Navigation </h4>
+                    <p >The current site was simply overwhelming and hard to navigate. Links were placed in confusing pages.
+                      <br><br>Users could not figure out where to find important information - including finding available dogs.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card h-100 border-light">
+                  <img src="images/lost.png" alt="illustration of sad dog face on broken heart" style="transform: scale(.65);">
+                </div>
+              </div>
+            </div>
+            <!--End Navigation Row-->
+      <!--Banner-->
+      <section class="banner-img" id="banner2">
+        <img src="images/original-site.png" alt="browsing old great dane site on laptop" class="w-100 p-3">
+      </section>
+      <!--End Banner-->
+      
+      <!--Ideation Start-->
+      <section class="my-5" id="ideation">
+        <div class="container">
+          <h2 class="my-3">Ideation</h2>
+          <div class="col-8 vh-40 m-0">
+            <img src="images/ideation-stickies.jpg" alt="brainstorming sticky notes" style="transform: scale(.65);">
+          </div>
+        </div>
+      </section>
+      <!--End Ideation-->
+        </div>
+      </section>
+    </div>
+    
+    
 
 
 

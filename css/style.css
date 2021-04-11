@@ -1,0 +1,116 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+/* body {
+    background-image: url(../images/hero-img2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: #e9ecef;
+} */
+h1, h2  {
+    font-family: 'PeachyKeenJF', sans-serif;
+  }
+  h3, h4, h5, h6 {
+    font-family: 'Montserrat',sans-serif;
+  }
+  h4 {
+      font-size: 30px;
+      font-weight: 700;
+  }
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  }
+ 
+.customNav {
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    background: url("../images/navFrost.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+    backdrop-filter: blur(.25rem);
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 180px;
+  }
+  
+  .nav-item {
+    margin: 0px 88px;
+  }
+  
+  .customNav a {
+    color: white !important;
+  }
+  
+  .navCTA {
+    font-size: 20px;
+  }
+
+.sidenav {
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    left: 10px;
+    background:transparent;
+    overflow-x: hidden;
+    padding: 8px 8px;
+  }
+  
+  .sidenav a {
+    padding: 6px 16px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #b6b6b6;
+    display: block;
+    background: rgba(55, 58, 87, 0.0);
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .sidenav a:hover {
+    color: #E0E0E0;
+    background: rgba(55, 58, 87, 0.7);
+  }
+  
+  .main {
+    margin-left: 160px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.jumbotron {
+    
+    height: 500px;
+    height: calc(100vh + 90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+/* @media screen and (max-width: 576px) {
+    #process-img {
+        background-image:url(../images/process-graph-mobile.png) !important;
+    }
+} */
+/* @media screen and (min-width: 577px) {
+    #process-img {
+        background-image:url(../images/Process-Graphic.png);
+    }
+} */
